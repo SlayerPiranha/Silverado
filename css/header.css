@@ -1,0 +1,86 @@
+header
+{
+  width: 100%;
+  top: 0;
+  position: fixed;
+  z-index: 3;
+}
+
+.header-bgcolor
+{
+  background-color: #333333;
+}
+
+#header-table
+{
+  height: 50px;
+  border-spacing: 0;
+  height: 50px;
+  max-width: 1024px;
+  table-layout: fixed;
+}
+
+.header-tab
+{
+  padding: 0;
+}
+.header-tab-shared
+{
+  padding: 0;
+}
+.header-tab-mini
+{
+  padding: 0;
+}
+.header-tab-spacing
+{
+  line-height: 50px;
+}
+
+#logo-img
+{
+  height: 50px;
+  width: auto;
+}
+
+#header-curve
+{
+  border-top: 3px solid #444444;
+  border-left: 384px solid transparent;
+  border-right: 384px solid transparent;
+}
+
+.header-text
+{
+  font-family: "Segoe UI Light";
+  font-size: 90%;
+  letter-spacing: 1px;
+}
+.header-link
+{
+  color: white;
+  text-decoration: none;
+}
+
+#options-menu
+{
+  display: none;
+  position: fixed;
+  left: 0px;
+  top: 50px;
+  line-height: 100px;
+}
+.options-menu-item
+{
+  margin-left: 50px;
+  width: 100%;
+}
+.options-menu-text
+{
+  font-size: 20px;
+}
+#display-options-menu:checked + #options-menu
+{
+  background: #333333;
+  display: inline;
+}

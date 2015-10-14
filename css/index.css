@@ -1,0 +1,34 @@
+#index-background1
+{
+  /* Original image below sourced and adapted for educational purposes:
+   * https://upload.wikimedia.org/wikipedia/commons/2/2e/Flickr_-_Nicholas_T_-_Pine_Hill_Vista_(Revisited)_(5).jpg
+   */
+  background-image: url("../images/vista_t.png");
+  background-color: azure;
+}
+
+#index-background2
+{
+  /* Original image below sourced and adapted for educational purposes:
+   * https://upload.wikimedia.org/wikipedia/commons/3/3c/Seats_of_Hoyts_Forest_Hill.jpg
+   */
+  background-image: url("../images/seats_t.png");
+  background-color: snow;
+}
+
+#index-background3
+{
+  background-color: white;
+}
+
+#index-background4
+{
+  background-image: url("../images/sound.png");
+  background-color: azure;
+}
+
+/* has to be defined after content-layer for em units to be scaled correctly */
+.index-text-default
+{
+  margin-top: -10em;
+}

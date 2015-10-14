@@ -1,0 +1,218 @@
+main
+{
+  padding-top: 50px;
+  padding-bottom: 1px;
+  margin-right: 50px;
+  width: 100%;
+  height: auto !important;
+  height: 100%;
+  min-height: 100%;
+  background-color: #eeeeee;
+  background-size: 100% 100%;
+}
+
+.caption-style
+{
+  font-family: "Segoe UI Light";
+  font-size: 200%;
+}
+
+.caption-mini-style
+{
+  font-family: "Segoe UI Light";
+  font-size: 90%;
+}
+
+.description-style
+{
+  font-family: "Segoe UI Light";
+  font-size: 150%;
+  color: cornflowerblue;
+}
+
+.text-min-center
+{
+  min-width: 768px;
+}
+
+.text-list
+{
+  list-style: none;
+  text-align: center;
+  position: relative;
+}
+.list-middle
+{
+  top: 50%;
+}
+.list-item-spacing
+{
+  margin: 0px 0px 33px 0px;
+}
+.list-adjust-bottom
+{
+  margin-bottom: 50px;
+}
+
+.button
+{
+  height: 50px;
+  width: 100%;
+  max-width: 250px;
+  font-family: "Segoe UI";
+  font-size: 120%;
+
+  border-color:black;
+  background-color: rgba(128,128,128,0.1);
+
+  border-radius:10px;
+}
+.button:hover
+{
+  background-color: rgba(64,64,64,0.1);
+}
+
+
+.helper
+{
+  min-width: 800px;
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  overflow: hidden;
+}
+.wrapped
+{
+    vertical-align: middle;
+}
+
+.background-image
+{
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+  background-repeat: no-repeat;
+  text-align: right;
+  position: absolute;
+  overflow: hidden;
+  white-space:nowrap;
+}
+
+/* Original CSS code sourced and adapted for educational purposes:
+ * http://stackoverflow.com/questions/6490252/vertically-centering-a-div-inside-another-div
+ */
+.content-page-center
+{
+  min-width: 270px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.content-overlay
+{
+  position: relative;
+  z-index: 2;
+  align-self: center;
+}
+.content-overlay-no-center
+{
+  position: relative;
+  z-index: 2;
+}
+
+.translucent
+{
+  opacity: 0.5;
+}
+
+.text-field
+{
+  font-family: "Segoe UI";
+  height: 20px;
+  width: 100%;
+  max-width: 300px;
+  background-color: #f2f2f2;
+  border: 1px solid lightgray;
+  padding: 10px;
+}
+.input-field
+{
+  font-family: "Segoe UI";
+  height: 50px;
+  width: 100%;
+  max-width: 300px;
+  background-color: #f2f2f2;
+  border: 1px solid lightgray;
+  padding: 10px;
+}
+.input-field-large
+{
+  height: 150px;
+}
+.input-field:focus
+{
+  background-color: white;
+}
+
+.input-table
+{
+  border-spacing: 0;
+  table-layout: fixed;
+  margin: 0 auto;
+  min-width: 270px;
+}
+.input-table tr td
+{
+  padding: 10px;
+}
+.input-table tr td label
+{
+  font-family: "Segoe UI";
+}
+.summary-text-style
+{
+  font-size: 80%;
+}
+
+.select-tab-header
+{
+  background-color: #444444;
+  color: silver;
+  height: 100px;
+}
+.select-tab-header-mini
+{
+  background-color: #444444;
+  color: silver;
+}
+
+.remove-tab-mini
+{
+  background-color: #dddddd;
+}
+.remove-tab-mini:hover
+{
+  background-color: #FFCCCB;
+}
+.edit-tab-mini
+{
+  background-color: #dddddd;
+}
+.edit-tab-mini:hover
+{
+  background-color: #cccccc;
+}
+.select-tab
+{
+  background-color:#dddddd;
+  height: 75px;
+}
+.select-tab:hover
+{
+  background-color:#d9d9d9;
+}
+.select-tab-mini
+{
+  background-color:#dddddd;
+}
