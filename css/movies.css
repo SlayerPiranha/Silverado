@@ -1,0 +1,95 @@
+.movie-panel-small
+{
+  width: 200px;
+  height: 200px;
+  background-color: silver;
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+}
+.movie-panel-small-caption
+{
+  display:block;
+  position:absolute;
+  width:200px;
+  background-image:url('../images/movie_caption_overlay.png');
+}
+
+.movie-panel-small-placeholder
+{
+  width: 200px;
+  height: 200px;
+  background-color: #f2f2f2;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.movie-panel-large
+{
+  width: 100%;
+  max-width: 400px;
+  height: 300px;
+  background-color: #333333;
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+}
+.movie-panel-large-caption
+{
+  margin: 0px auto;
+  width: 100%;
+  max-width: 400px;
+  height: 50px;
+  background-color: #333333;
+}
+.movie-description
+{
+  height: 50px;
+}
+#movie-short-description
+{
+  display: none;
+}
+
+#rating-panel
+{
+  background-color: #333333;
+  color: white;
+  float: right;
+  width: 150px;
+  height: 50px;
+  opacity: 0.8;
+}
+
+.movie-caption-style
+{
+  font-family: "Segoe UI Light";
+  color: whitesmoke;
+  padding: 10px;
+}
+
+/* has to be defined after content-layer for em units to be scaled correctly */
+.movie-text-default
+{
+  margin-top: -1em;
+}
+
+.img-display
+{
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.movie-description-style
+{
+  font-family: "Segoe UI Light";
+  font-size: 150%;
+  color: royalblue;
+}
+
+.movie-table
+{
+  display: block;
+  margin: 0 auto;
+}

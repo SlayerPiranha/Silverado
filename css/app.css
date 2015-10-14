@@ -1,0 +1,227 @@
+@font-face
+{
+  font-family: "Eras Demi ITC";
+  src: url("fonts/erasdemi.ttf");
+}
+@font-face
+{
+  font-family: "Segoe UI";
+  src: url("fonts/segoeui.ttf");
+}
+
+@font-face
+{
+  font-family: "Segoe UI Light";
+  src: url("fonts/segoeuil.ttf");
+}
+
+html { height: 100% }
+body
+{
+  height: 100%;
+  margin: 0;
+}
+
+.fill-sizeof-page
+{
+  height: 100vh;
+  width: 100%;
+}
+
+.min-sizeof-page
+{
+  height: 100%;
+}
+
+nav a
+{
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+footer
+{
+  padding: 20px;
+  background-color: #f2f2f2;
+  font-family: "Segoe UI Light";
+}
+
+#background { width: 100%; height: 100% }
+
+@media (min-width: 768px)
+{
+  .title-style
+  {
+    font-family: "Segoe UI Light";
+    font-size: 400%;
+  }
+  #header-table
+  {
+    margin: 0 auto;
+  }
+  .input-table
+  {
+    width: 500px;
+  }
+  header
+  {
+    opacity: 0.98;
+  }
+  #header-logo
+  {
+    text-align: center;
+  }
+  #header-curve
+  {
+    display: block;
+  }
+  .header-tab
+  {
+    text-align: center;
+  }
+  .header-active
+  {
+    background-color: #222222;
+  }
+  .header-tab-mini
+  {
+    display: none;
+  }
+  #header-table tr td:first-child
+  {
+    text-align: center;
+    padding-left: 0;
+  }
+  #header-table tr td:last-child
+  {
+    text-align: center;
+    padding-right: 0;
+  }
+  .header-tab-shared:hover
+  {
+    background-color:#444444;
+  }
+  .header-tab:hover
+  {
+    background-color:#444444;
+  }
+  .header-active:hover
+  {
+    background-color:#222222;
+  }
+  .movie-name-style
+  {
+	font-family: "Segoe UI Light";
+    font-size: 120%;
+    font-weight: bold;
+  }
+}
+@media (max-width: 768px)
+{
+  .title-style
+  {
+    font-family: "Segoe UI";
+    font-size: 200%;
+  }
+  #header-table
+  {
+    margin: auto;
+    max-width: inherit !important;
+  }
+  .input-table
+  {
+    width:100%;
+    max-width: 500px;
+  }
+  header
+  {
+    opacity: 1;
+  }
+  #header-logo
+  {
+    text-align: center;
+  } 
+  #header-curve
+  {
+    display: none;
+  }
+  .header-tab
+  {
+    display: none;
+  }
+  //.header-tab-mini
+  //{
+  //  display: inline;
+  //}
+  #header-table tr td:first-child
+  {
+    text-align: left;
+    padding-left: 20px;
+  }
+  #header-table tr td:last-child
+  {
+    text-align: right;
+    padding-right: 20px;
+  }
+  .movie-name-style
+  {
+	font-family: "Segoe UI Light";
+    font-size: 120%;
+    font-weight: bold;
+  }
+}
+
+#help_img
+{
+  background-image: url("../images/help_t.png");
+}
+
+.img-placeholder
+{
+  display: none;
+}
+
+.fill-space
+{
+  width: 100%;
+  height: 100%;
+}
+.stretch-background
+{
+  background-size: 100% 100%;
+}
+
+/* Original CSS code sourced for educational purposes: 
+ * http://stackoverflow.com/questions/826782/css-rule-to-disable-text-selection-highlighting
+ */
+.noselect
+{
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.align-left
+{
+  text-align: left;
+}
+
+.align-center
+{
+  text-align: center;
+}
+
+.align-right
+{
+  text-align: right;
+}
+
+.hidden
+{
+  display: none;
+}
+
+
